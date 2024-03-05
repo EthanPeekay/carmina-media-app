@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <solid android:color="#bfbfbf"/>
+        </shape>
+    </item>
+
+    <item android:id="@android:id/progress">
+        <!--<bitmap android:src="@drawable/oval" android:tileMode="repeat"/>-->
+        <clip>
+            <layer-list>
+                <!-- transparent background  -->
+                <item>
+                    <color android:color="@color/yellow" />
+                </item>
+                <!-- <item>
+                    <bitmap android:src="@drawable/progressbar_tile" android:tileMode="repeat"/>
+                </item> -->
+            </layer-list>
+        </clip>
+    </item>
+</layer-list>

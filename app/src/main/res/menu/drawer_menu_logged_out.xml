@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/grp2"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search_white_48dp"
+            android:title="@string/menu_search" />
+
+
+        <item
+            android:id="@+id/nav_equalizer"
+            android:icon="@drawable/ic_assessment_black_24dp"
+            android:title="@string/action_equ" />
+
+        <item
+            android:id="@+id/nav_scan"
+            android:icon="@drawable/ic_action_discover"
+            android:title="@string/action_scan" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="@string/nav_share" />
+
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/nav_settings" />
+
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="@string/nav_rate" />
+
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_aboutus"
+            android:title="@string/title_about_us" />
+
+        <!--<item
+            android:id="@+id/nav_send_songs_offline"
+            android:icon="@drawable/ic_sharemovies_black"
+            android:title="@string/home_nav_send_offline" />
+        <item
+            android:id="@+id/nav_get_songs_offline"
+            android:icon="@drawable/ic_getmovies_black"
+            android:title="@string/home_nav_get_offline" />-->
+
+    </group>
+</menu>

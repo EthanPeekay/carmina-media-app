@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="line">
+
+    <stroke android:color="@color/appred" android:width="3dp"/>
+    <gradient android:startColor="@color/CarminaPrimaryGradientEnd50" android:endColor="@color/CarminaPrimaryGradientEnd"/>
+
+</shape>

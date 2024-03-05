@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <declare-styleable name="PlayWidget" tools:ignore="ResourceName">
+        <attr name="pw_diffusers_padding" format="dimension"/>
+        <attr name="pw_progress_line_padding" format="dimension"/>
+
+        <attr name="pw_big_diffuser_shadow_width" format="dimension"/>
+        <attr name="pw_medium_diffuser_shadow_width" format="dimension"/>
+        <attr name="pw_small_diffuser_shadow_width" format="dimension"/>
+
+        <attr name="pw_progress_complete_line_stroke_width" format="dimension"/>
+        <attr name="pw_progress_ball_radius" format="dimension"/>
+        <attr name="pw_progress_line_stroke_width" format="dimension"/>
+
+        <attr name="pw_buttons_size" format="dimension"/>
+
+        <attr name="pw_progress_line_enabled" format="boolean"/>
+        <attr name="pw_progress_complete_line_color" format="color"/>
+        <attr name="pw_progress_ball_color" format="color"/>
+        <attr name="pw_progress_line_color" format="color"/>
+
+        <attr name="pw_big_diffuser_color" format="color"/>
+        <attr name="pw_medium_diffuser_color" format="color"/>
+        <attr name="pw_play_button_background_tint" format="reference|color"/>
+        <attr name="pw_image_src" format="reference|color"/>
+
+    </declare-styleable>
+
+
+    <declare-styleable name="MyImageView">
+        <attr name="url" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="FixedAspectRatioFrameLayout">
+        <attr name="aspectRatioWidth" format="integer" />
+        <attr name="aspectRatioHeight" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressWheel">
+        <attr name="matProg_progressIndeterminate" format="boolean" />
+        <attr name="matProg_barColor" format="color" />
+        <attr name="matProg_rimColor" format="color" />
+        <attr name="matProg_rimWidth" format="dimension" />
+        <attr name="matProg_spinSpeed" format="float" />
+        <attr name="matProg_barSpinCycleTime" format="integer" />
+        <attr name="matProg_circleRadius" format="dimension" />
+        <attr name="matProg_fillRadius" format="boolean" />
+        <attr name="matProg_barWidth" format="dimension" />
+        <attr name="matProg_linearProgress" format="boolean" />
+    </declare-styleable>
+</resources>
